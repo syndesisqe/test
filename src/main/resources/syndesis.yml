@@ -1,0 +1,7 @@
+---
+flows:
+- steps:
+  - kind: endpoint
+    uri: twitter-mention-connector:MENTIONS
+  - kind: endpoint
+    uri: salesforce-upsert-sobject
